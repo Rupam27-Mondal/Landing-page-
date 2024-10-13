@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>QUICK GET</h1>
+                <ul class="nav-links">
+                    <li><a href="#section2">About</a></li>
+                    <li><a href="#section3">Services</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-content">
+                <h2>Discover Our Solutions</h2>
+                <p>Innovative approaches tailored for your success.</p>
+                <a href="#section2" class="cta-button">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="section2">
+        <div class="container">
+            <h2>About Us</h2>
+            <p> We focus on delivering top-quality services that help you succeed. Our team has the experience and skills to guide you through challenges and help you reach your goals.</p>
+            <p>We combine creativity and technology to provide solutions that work. Whether you need to improve your business, develop new technology, or stay ahead of the competition, we are here to support you.</p>
+            <p>Learn more about what makes us special and how we can turn your ideas into reality. Let's work together to create something great.</p>
+        </div>
+    </section>
+    
+
+    <section id="section3">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    
+                    <h3>Consulting</h3>
+                    <p>Strategic advice to overcome your challenges and seize opportunities.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Development</h3>
+                    <p>Custom software solutions designed to fit your unique needs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛠️</div>
+                    <h3>Support</h3>
+                    <p>Dedicated support to ensure seamless operations and growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Please fill out the form below to get in touch.</p>
+            <form action="submit-form.php" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <p>&copy; 2024 Rupam Mondal| All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

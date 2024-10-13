@@ -1,0 +1,217 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background: #f4f4f4;
+}
+
+nav {
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(211, 5, 5, 0.921);
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+nav .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin-left: 2rem;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav .nav-links a:hover {
+    color: #007BFF;
+    transform: translateY(-2px);
+}
+
+.hero {
+    background: linear-gradient(135deg, #007BFF, #00D084);
+    color: white;
+    text-align: center;
+    padding: 8rem 2rem;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 300;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    color: white;
+    background: #0ad87b;
+    box-shadow: 0 4px 8px rgb(244, 2, 2);
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+   transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #555;
+    transform: scale(1.05);
+}
+
+section {
+    padding: 4rem 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 2.5rem;
+    color: #007BFF;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.service-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(214, 208, 208, 0.914);
+    text-align: center;
+    flex: 1 1 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(72, 244, 4, 0.926);
+}
+
+.service-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#contact-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #f4b400;
+}
+
+
+footer {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 2rem 2rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .service-card {
+        flex: 1 1 calc(33.333% - 2rem);
+    }
+}
